@@ -130,7 +130,7 @@ console.log( foo );        // { name : 'foo' , age : 35 , gender : 'male' }
 자바스크립트 에서 내장함수 function() 을 사용 하여 생성된 객체라고 할수있다
 
 ```js
-var add = new Function ( 'x' , 'y' , 'retrun x + y');
+var add = new Function ( 'x' , 'y' , 'return x + y');
 console.log( add ( 3 , 5 ) ); // 8
 ```
 
