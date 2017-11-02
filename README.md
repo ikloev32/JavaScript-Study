@@ -25,7 +25,7 @@
  var intNum = 3;
  var floatNum = 0.3;
  
- console.log( typeof intnum , typeof floatNum );// number , number 
+ console.log( typeof intNum , typeof floatNum );// number , number 
  ```
  
 자바스크립트는 모든 숫자를 실수형으로 처리하기 때문에 나눗셈 연산을 할때 조심해야 한다
