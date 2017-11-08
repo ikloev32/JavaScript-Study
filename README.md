@@ -172,3 +172,17 @@ typeof 는 피연산자 의 타입을 문자열로 리턴 해준다
 - 객체는 값이 비어 있는 객체 여도 true로 변환 되는것에 유의 한다
 
 
+```js
+console.log( !! 0);         // false
+console.log( !! 1);         // true
+console.log( !! 'string');  // true
+console.log( !! '' );       // false
+console.log( !! true );     // true
+console.log( !! false );    // false
+console.log( !! null );     // false
+console.log( !! undefined)  // false;
+console.log( !! {} );       // true
+console.log( !! [2,5,3] );  // true
+
+```
+
