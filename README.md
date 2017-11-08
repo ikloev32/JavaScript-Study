@@ -134,5 +134,35 @@ var add = new Function ( 'x' , 'y' , 'return x + y');
 console.log( add ( 3 , 5 ) ); // 8
 ```
 
-### 작성중 입니다
+# 연산자
 
+## +연산자
+
+더하기 연산과 문자열 연결 연산을 담당한다. 값이 모두 숫자일 경우만 더하기 연산을 하고 나머지는 문자열 연결 연산이 이루어 진다
+
+```js
+ var add1 = 1 + 2;
+ var add2 = 'my' + 'string';
+ var add3 = 1 + 'string';
+ var add4 = 'string' + 2;
+ 
+ console.log( add1 , add2 , add3 , add4 ); // 3 , mystring , 1string , string2
+
+```
+
+## typeof 연산자 
+
+typeof 는 피연산자 의 타입을 문자열로 리턴 해준다
+- null 이 object 라는 점과 함수는 function 이라는것을 유의한다
+
+## == 동등연산자  === 일치 연산자
+
+자바스크립트에서는 두연산자 모두 사용 가능 하다 
+== 연산자는 타입이 다를경우 타입변환을 하고 비교 하지만 ===은 타입변환을 거치지 않는다.
+
+```js
+  console.log( 1 == '1'); // true
+  console.log( 1 === '1'); // false
+``
+
+## !! 연산자
