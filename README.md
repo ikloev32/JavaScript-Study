@@ -163,6 +163,6 @@ typeof 는 피연산자 의 타입을 문자열로 리턴 해준다
 ```js
   console.log( 1 == '1'); // true
   console.log( 1 === '1'); // false
-``
+```
 
 ## !! 연산자
